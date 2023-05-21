@@ -128,3 +128,7 @@ readBtn.addEventListener('click', () => {
 });
 
 voicesSelect.addEventListener('change', setVoice);
+
+closeBtn.addEventListener('click', () => {
+  document.getElementById('text-box').classList.remove('show');
+});
